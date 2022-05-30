@@ -24,7 +24,7 @@ Each author in DBLP has a unique key, which can be used as the ground truth for 
 
 
 ## Run
-1. Unzip the two zip data (attr.zip) files to the same directotry.
+1. Unzip the two zip data files (data/dblp/attrs.zip & data/wd/attrs.zip) to the same directotry.
 2. Activate the python environment.
 3. CD to the code directory.
 4. run the JARUA.py
