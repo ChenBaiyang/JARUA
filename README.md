@@ -12,7 +12,7 @@ Each author in DBLP has a unique key, which can be used as the ground truth for 
 
 ## Environment
 * python==3.7
-* tensorflow>=1.13,<=1.14
+* tensorflow>=1.13,<=1.14 (or tensorflow-gpu)
 * keras 
 * gensim
 * networkX
