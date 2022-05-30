@@ -11,13 +11,13 @@ First, a small number of users on the Douban platform have posted their Weibo ac
 Each author in DBLP has a unique key, which can be used as the ground truth for the UIL problem. In this study, the DBLP network backups of different periods, i.e.,2017-12-1 and 2018-12-1, were used as the aligned subjects in the UIL experiments. We select the Turing Award winner Yoshua Bengio as the center node in each network, and then delete any nodes more than three steps away from the center. Besides, the size of two DBLPs is reduced by discovering network communities and repeatedly deleting leaf nodes. The final DBLPs also enjoy the characteristics of the power-law distribution and the high aggregation coefficient.
 
 ## Environment
-* Python=3.7
+* Python==3.7
 * Gensim>=3.8
 * NetworkX>=2.2
-* Tensorflow>=1.13
+* Tensorflow>=1.13,<=1.14 
 * Keras>=2.2
 * scikit-learn
 * Jieba
 * Zhconv
 * Pypinyin
-* Nltk>=3.4 with wordnet
+* Nltk>=3.4 # with wordnet
